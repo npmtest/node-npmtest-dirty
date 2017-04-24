@@ -1,6 +1,6 @@
 # npmtest-dirty
 
-#### test coverage for  [dirty (v1.1.0)](https://github.com/felixge/node-dirty#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dirty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dirty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dirty.svg)](https://travis-ci.org/npmtest/node-npmtest-dirty)
+#### basic test coverage for  [dirty (v1.1.0)](https://github.com/felixge/node-dirty#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dirty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dirty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dirty.svg)](https://travis-ci.org/npmtest/node-npmtest-dirty)
 
 #### A tiny & fast key value store with append-only disk log. Ideal for apps with < 1 million records.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dirty/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dirty/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dirty/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dirty/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dirty/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dirty/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dirty/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dirty/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dirty/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dirty/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dirty/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dirty/build/coverage.html/index.html)
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "mocha test/test-*.js -R list"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
